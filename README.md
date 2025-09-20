@@ -323,6 +323,6 @@ copies or substantial portions of the Software.
 
 **Made with ❤️ for the financial analysis community**
 
-*Last updated: December 2024*
+*Last updated: September 2025*
 
 </div>
