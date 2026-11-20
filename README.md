@@ -149,8 +149,8 @@ The **Multi-Algorithm Stock Predictor** is a sophisticated financial analysis pl
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/stock-predictor.git
-   cd stock-predictor
+   git clone https://github.com/KahafSameer/stock-predictor-that_analysis_all_stocks_main.git
+   cd stock-predictor-that_analysis_all_stocks_main
    ```
 
 2. **Create a virtual environment** (Recommended)
@@ -166,8 +166,8 @@ The **Multi-Algorithm Stock Predictor** is a sophisticated financial analysis pl
 
 4. **Set up API keys** (Optional)
    ```bash
-   # For enhanced news analysis, add your NewsAPI key to stock_predictor.py
-   # Replace the existing API key with your own
+   # News sentiment uses a NewsAPI key (https://newsapi.org), read from NEWS_API_KEY
+   export NEWS_API_KEY=your_newsapi_key_here       # Windows PowerShell: $env:NEWS_API_KEY="your_newsapi_key_here"
    ```
 
 5. **Run the application**
