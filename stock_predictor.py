@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -52,7 +53,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 # API setup
-NEWS_API_KEY = '0de37ca8af9748898518daf699189abf'
+NEWS_API_KEY = os.getenv('NEWS_API_KEY', '')
 newsapi = NewsApiClient(api_key=NEWS_API_KEY)
 
 @st.cache_data(ttl=3600)
